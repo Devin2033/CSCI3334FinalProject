@@ -1,0 +1,38 @@
+@Devin2033 ➜ /workspaces/CSCI3334FinalProject/finalProject (main) $ cargo run
+   Compiling finalProject v0.1.0 (/workspaces/CSCI3334FinalProject/finalProject)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 19.55s
+     Running `target/debug/finalProject`
+
+=== Experiment: Fifo ===
+Workers: 8 | Tasks: 1000 | IO ratio: 70% | CPU cap: 95%
+All tasks dispatched. Waiting for workers...
+
+========== RESULTS (Fifo) ==========
+Total tasks completed: 1000
+  IO tasks:  701
+  CPU tasks: 299
+Makespan:                 25158ms
+Avg wait time:           2434.6ms
+Avg turnaround:          2634.7ms
+Max wait time:             4871ms
+Avg CPU usage:            139.0%
+Avg active workers:        7.95 / 8
+Avg queue length:          96.8
+==========================================
+
+=== Experiment: CpuAware ===
+Workers: 8 | Tasks: 1000 | IO ratio: 70% | CPU cap: 95%
+All tasks dispatched. Waiting for workers...
+
+========== RESULTS (CpuAware) ==========
+Total tasks completed: 1000
+  IO tasks:  701
+  CPU tasks: 299
+Makespan:                 25159ms
+Avg wait time:           2434.9ms
+Avg turnaround:          2635.0ms
+Max wait time:            12813ms
+Avg CPU usage:            139.0%
+Avg active workers:        7.95 / 8
+Avg queue length:          96.9
+==========================================
