@@ -11,8 +11,8 @@ Commands to run a single experiment:
 
 The program uses a fixed random seed (42), so results are reproducible across runs.
 
-Design Report: [Design Report.pdf](https://github.com/user-attachments/files/27505106/Design.Report.pdf)
 ---
+Design Report:  [Design Report.pdf](https://github.com/user-attachments/files/27505106/Design.Report.pdf)
 
 Design Summary
 The system is organized into three concurrent blocks plus shared state:
