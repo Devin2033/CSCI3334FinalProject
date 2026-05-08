@@ -1,16 +1,17 @@
 Concurrent Task Dispatcher Final Project
 
 Steps to build and run from a new codespace:
-cd finalProject
-cargo build
-cargo run
+(cd finalProject)
+(cargo build)
+(cargo run)
 
 Commands to run a single experiment:
-cargo run -- fifo
-cargo run -- optimized
+(cargo run -- fifo)
+(cargo run -- optimized)
 
 The program uses a fixed random seed (42), so results are reproducible across runs.
 
+Design Report: [Design Report.pdf](https://github.com/user-attachments/files/27505106/Design.Report.pdf)
 ---
 
 Design Summary
